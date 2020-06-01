@@ -1,7 +1,7 @@
 # autoprotonvpn
-requirements:
--NodeJS (tested on v.10.16.0)
--Puppeteer
+requirements:<br>
+- NodeJS (tested on v.10.16.0)<br>
+- Puppeteer<br>
 
 ```
 $node proton.js
