@@ -38,7 +38,7 @@ async function delay(ms) {
 		
 		await delay(1000);
 		
-	   browser = await puppeteer.launch({headless: false, args: ['--disable-web-security']});	
+	   browser = await puppeteer.launch({headless: true, args: ['--disable-web-security']});	
 	   pg = await browser.newPage();
 	   
 	   //puppeteer anti detection measures:  https://intoli.com/blog/not-possible-to-block-chrome-headless/
@@ -60,9 +60,8 @@ async function delay(ms) {
 		  );
 		});
 		if (verbose) console.log('pptr anti detection measures applied')
-	   await delay(1000000);
-	   
-	   
+	   await delay(100);
+	   	   
 	   await pg.goto('https://account.protonvpn.com/signup',{waitUntil: 'load', timeout: 0});	 
 	   if (verbose) console.log('on first signup page');
 	   await pg.waitForSelector('button.pm-button--primary', { timeout: 0});
