@@ -1,10 +1,8 @@
 # autoprotonvpn
--requirements:
-NodeJS (tested on v.10.16.0)
-Puppeteer
+requirements:
+-NodeJS (tested on v.10.16.0)
+-Puppeteer
 
--Usage: node proton.js<br>
--output:<br>
 ```
 $node proton.js
 username: pHaFaRi33coqh
