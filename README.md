@@ -13,7 +13,7 @@ try your new ProtonVPN account ;-)
 
 <b>What is it?</b><br>
 <br>
-Just run the NodeJS file and it will create a new ProtonVPN account, <br>with a random username and password<br>
+Just run the NodeJS file and it will create a new ProtonVPN account, with a random username and password<br>
 <br>
 <b>How does it work?</b> <br>
 <br>
