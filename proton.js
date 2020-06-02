@@ -51,15 +51,15 @@ async function delay(ms) {
 		  });
 		});	   
 	   // Pass the Permissions Test.
-		await pg.evaluateOnNewDocument(() => {
+	   await pg.evaluateOnNewDocument(() => {
 		  const originalQuery = window.navigator.permissions.query;
 		  return window.navigator.permissions.query = (parameters) => (
 		    parameters.name === 'notifications' ?
 		      Promise.resolve({ state: Notification.permission }) :
 		      originalQuery(parameters)
 		  );
-		});
-		if (verbose) console.log('pptr anti detection measures applied')
+	   });
+	   if (verbose) console.log('pptr anti detection measures applied')
 	   await delay(100);
 	   	   
 	   await pg.goto('https://account.protonvpn.com/signup',{waitUntil: 'load', timeout: 0});	 
