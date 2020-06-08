@@ -26,6 +26,6 @@ This will only work as long as the email domains from generator.email are not bl
 
 Once ProtonVPN add protections such as recaptcha, this script will not work. 
 
-To-do<br>
+<b>To-do</b><br>
 - delete verification email
 - use promise / await version of requests module
