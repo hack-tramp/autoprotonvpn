@@ -21,11 +21,11 @@ This script uses disposable email from generator.email, and headless chrome (pup
 to fill out the registration form, receive the verification email at the disposable address,<br>
 and complete the registration process.<br>
 <br>
-<b>Troubleshooting / to do</b><br>
+<b>Troubleshooting / to do</b><br><br>
 This will only work as long as the email domains from generator.email are not blocked by ProtonVPN - sometimes they are, so just try again. 
 
 Once ProtonVPN add protections such as recaptcha, this script will not work. 
 
-To-do 
+To-do<br>
 - delete verification email
 - use promise / await version of requests module
