@@ -17,7 +17,7 @@ Just run the NodeJS file and it will create a new ProtonVPN account, with a rand
 <br>
 <b>How does it work?</b> <br>
 <br>
-This script uses disposable email from generator.email, and headless chrome (puppeteer)<br>
+This script uses disposable email from generator.email, and headless browser<br>
 to fill out the registration form, receive the verification email at the disposable address,<br>
 and complete the registration process.<br>
 <br>
