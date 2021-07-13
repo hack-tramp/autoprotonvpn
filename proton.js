@@ -4,7 +4,7 @@ const querystring = require('querystring');
 const cryptoRandomString = require('crypto-random-string');
 const crypto = require('crypto');
 
-const verbose = true;
+const verbose = false;
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
